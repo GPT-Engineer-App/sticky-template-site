@@ -71,11 +71,13 @@ const Index = () => {
                   HELLO
                 </Heading>
               </Box>
-              <Box bg="gray.300" p="8" borderRadius="md" boxShadow="lg">
-                <Heading size="xl" textAlign="center">
-                  HELLO
-                </Heading>
-              </Box>
+              {[...Array(10)].map((_, index) => (
+                <Box key={index} bg="gray.300" p="8" borderRadius="md" boxShadow="lg">
+                  <Heading size="xl" textAlign="center">
+                    HELLO
+                  </Heading>
+                </Box>
+              ))}
             </Flex>
           </Box>
         </Flex>
