@@ -52,10 +52,7 @@ const Index = () => {
               <FaInfo />
               <Text ml="2">About</Text>
             </Link>
-            <Link display="flex" alignItems="center">
-              <FaEnvelope />
-              <Text ml="2">Contact</Text>
-            </Link>
+
             <Link display="flex" alignItems="center">
               <FaCog />
               <Text ml="2">Settings</Text>
