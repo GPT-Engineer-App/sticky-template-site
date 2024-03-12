@@ -24,7 +24,7 @@ const Index = () => {
     <ChakraProvider theme={theme}>
       <Flex h="100vh" flexDir="column">
         {/* Header */}
-        <Flex as="header" w="full" zIndex="sticky" bg={headerBgColor} boxShadow="sm" position="sticky" top="0" h="60px" align="center" px="4">
+        <Flex as="header" w={sidebarWidth} zIndex="sticky" bg={headerBgColor} boxShadow="sm" position="sticky" top="0" h="60px" align="center" px="4">
           <Heading size="md">My Website</Heading>
         </Flex>
 
