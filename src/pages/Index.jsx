@@ -56,7 +56,7 @@ const Index = () => {
           </VStack>
 
           {/* Main Content */}
-          <Box flex="1" p="8">
+          <Box flex="1" p="4">
             <Heading size="lg" mb="8">
               Welcome to My Website
             </Heading>
