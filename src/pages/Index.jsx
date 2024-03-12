@@ -45,10 +45,6 @@ const Index = () => {
             align="stretch"
           >
             <Link display="flex" alignItems="center">
-              <FaHome />
-              <Text ml="2">Home</Text>
-            </Link>
-            <Link display="flex" alignItems="center">
               <FaInfo />
               <Text ml="2">About</Text>
             </Link>
