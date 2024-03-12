@@ -57,8 +57,26 @@ const Index = () => {
 
           {/* Main Content */}
           <Box flex="1" p="8">
-            <Heading size="lg">Welcome to My Website</Heading>
-            <Text mt="4">This is a basic template site with a sticky header and a sticky sidebar. Use this template as a starting point to create something more unique!</Text>
+            <Heading size="lg" mb="8">
+              Welcome to My Website
+            </Heading>
+            <Flex direction="column" gap="4">
+              <Box bg="gray.300" p="8" borderRadius="md" boxShadow="lg">
+                <Heading size="xl" textAlign="center">
+                  HELLO
+                </Heading>
+              </Box>
+              <Box bg="gray.300" p="8" borderRadius="md" boxShadow="lg">
+                <Heading size="xl" textAlign="center">
+                  HELLO
+                </Heading>
+              </Box>
+              <Box bg="gray.300" p="8" borderRadius="md" boxShadow="lg">
+                <Heading size="xl" textAlign="center">
+                  HELLO
+                </Heading>
+              </Box>
+            </Flex>
           </Box>
         </Flex>
       </Flex>
